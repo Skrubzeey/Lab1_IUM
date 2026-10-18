@@ -1,0 +1,20 @@
+Wyniki przeprowadzonej walidacji krzyżowej
+============================================================
+
+Wyniki poszczególnych foldów
+ Fold  ML Pipeline  Sieć PyTorch
+    1       1.0000        0.7778
+    2       0.9722        0.6944
+    3       1.0000        0.8333
+    4       0.9714        0.8571
+    5       1.0000        0.6571
+
+Podsumowanie wyników modeli
+       Model  Średnia accuracy  Odchylenie standardowe  Czas treningu 
+ ML Pipeline            0.9887                  0.0138          0.0466
+Sieć PyTorch            0.7640                  0.0774          0.0459
+
+
+WNIOSKI:
+Lepsze wyniki osiągnął model uczenia maszynowego. W każdej metryce osiągnął znacznie lepszą jakość
+w porównaniu do Sieci Neuronowej.
